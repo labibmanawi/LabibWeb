@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/labibman/public_html/
+    - /bin/cp asset-manifest.json $DEPLOYPATH
+    - /bin/cp CV-ATS-labib-manawi.pdf $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp logo-labib.png $DEPLOYPATH
+    - /bin/cp -R static $DEPLOYPATH
